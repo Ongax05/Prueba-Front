@@ -1,0 +1,126 @@
+@font-face {
+  font-family: 'FuenteDescargada';
+  src: url('./Fonts/Poppins-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'FuenteDescargada', sans-serif;
+}
+
+#Logo {
+  width: 40px;
+  height: 40px;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+.navbar {
+  background-color: rgb(197, 218, 107);
+}
+
+#navbarSupportedContent {
+  @media screen and (min-width: 766px) {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+  }
+}
+
+#navbarSupportedContent .navbar-nav>.nav-item>a {
+  color: rgb(2, 97, 50);
+}
+
+aside {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin-right: 15px;
+}
+
+.cuadro {
+  margin-bottom: 20px;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: rgba(177, 240, 118, 0.404)
+}
+
+.navbar-toggler {
+  z-index: 1000;
+}
+
+.cuadro>a {
+  z-index: 999;
+}
+
+.cuadro img {
+  width: auto;
+  height: auto;
+}
+
+.carousel-col {
+  padding: 15;
+}
+
+.carousel-item>img {
+  max-height: 600px;
+  width: auto;
+}
+
+@media (max-width: 1200px) {
+  .carousel-item>img {
+    max-height: 450px;
+    margin-bottom: 100px;
+  }
+}
+@media (max-width: 550px) {
+  .carousel-item>img {
+    max-height: 400px;
+    margin-bottom: 100px;
+  }
+}
+
+@media (max-width: 350px) {
+  .carousel-item>img {
+    max-height: 200px;
+    margin-bottom: 100px;
+  }
+}
+
+@media (max-width: 689px) {
+  #carousel {
+    margin-right: 10%;
+    margin-bottom: 100px;
+  }
+}
+
+.bottom-section {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 65%;
+  margin-bottom: 15px;
+  padding: 20px;
+ 
+  border-radius: 30px;
+}
+
+.p-md-5.flex-fill.col-lg-7 > p {
+  color: #112c02; 
+  font-size: larger;
+}

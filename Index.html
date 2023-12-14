@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Starbucks</title>
+    <link rel="stylesheet" href="./assets/Styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body class="vh-100">
+
+    <nav class="navbar  navbar-expand-md pt-3 pb-3">
+        <div class="container-fluid">
+            <img src="./assets/Images/logo.png" id="Logo" alt="">
+            <a href="" class="navbar-brand home-triggers" data-bs-target="#carousel" data-bs-slide-to="0">Starbucks</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-md-0">
+                    <li class="nav-item text-center">
+                        <a href="" class="nav-link active home-triggers" data-bs-target="#carousel" data-bs-slide-to="0" aria-current="page" >Inicio</a>
+                    </li>
+                    <li class="nav-item text-center">
+                        <a class="nav-link active" aria-current="page" href="https://www.starbucks.com.co/menu">Menu</a>
+                    </li>
+                    <li class="nav-item text-center">
+                        <a class="nav-link active" aria-current="page"
+                            href="https://www.starbucks.com.co/seccion/novedades">Novedades</a>
+                    </li>
+                    <li class="nav-item text-center">
+                        <a class="nav-link active" aria-current="page"
+                            href="https://www.starbucks.com.co/seccion/novedades">Contacto</a>
+                    </li>
+            </div>
+        </div>
+    </nav>
+
+    <aside>
+        <div class="cuadro">
+            <a href="https://www.facebook.com/StarbucksColombia/">
+                <img src="./assets/Images/facebook.png" alt="facebook">
+            </a>
+        </div>
+        <div class="cuadro">
+            <a href="https://twitter.com/Starbucks">
+                <img src="./assets/Images/instagram.png" alt="Instagram">
+            </a>
+        </div>
+        <div class="cuadro">
+            <a href="https://www.instagram.com/starbuckscol/es">
+                <img src="./assets/Images/twitter.png" alt="twitter">
+            </a>
+        </div>
+    </aside>
+
+    <div class="container vh-100 mt-4">
+        <div class="row">
+            <div class="p-md-5 flex-fill col-lg-7" id="batido-info">
+                <h1></h1>
+                <hr>
+                <p id="descripcion-batido">
+                    </p>
+            </div>
+
+            <div class="p-md-5 flex-fill col-lg-5 mt-sm-3 carousel-col">
+                <div id="carousel" class="carousel carousel-dark slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="1000">
+                            <img src="assets/Images/Collage.png" class="d-block mx-auto">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="assets/Images/img1.png" class="d-block mx-auto">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="assets/Images/img2.png" class="d-block mx-auto">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="assets/Images/img3.png" class="d-block mx-auto">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom-section ">
+        <div class="row w-100 align-items-center">
+            <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn" id="menu-btn" data-bs-target="#carousel" data-bs-slide-to="0"
+                    style="background-color: rgb(0, 72, 90);"></button>
+                <button type="button" class="btn" id="feijoa-btn" data-bs-target="#carousel" data-bs-slide-to="1"
+                    style="background-color: green;"></button>
+                <button type="button" class="btn" id="strawberry-btn" data-bs-target="#carousel" data-bs-slide-to="2"
+                    style="background-color: pink;"></button>
+                <button type="button" class="btn" id="rainbow-btn" data-bs-target="#carousel" data-bs-slide-to="3"
+                    style="background-color: purple;"></button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="./assets/App.js">
+    </script>
+</body>
+
+</html>
